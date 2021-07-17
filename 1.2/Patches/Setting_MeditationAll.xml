@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="O21Anima.PatchOperation_SettingActive">
+		<settings>
+			<li>meditationAll</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Anima Tree -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "SculptureBase"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Small Nature Shrine -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "NatureShrine_Small"]/comps/li[@Class="CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Large Nature Shrine -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "NatureShrine_Large"]/comps/li[@Class="CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Animus Stone -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "AnimusStone"]/comps/li[@Class="CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Sculptures -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "SculptureBase"]/comps/li[@Class="CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Stele Large -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SteleLarge"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Stele Grand -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SteleGrand"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Grave -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Grave"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Sarcophagus -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Sarcophagus"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Campfire -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Campfire"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Minimal</li>
+						<li>Morbid</li>
+					</value>
+				</li>
+
+				<!-- Torch Lamp -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "TorchLamp"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Minimal</li>
+						<li>Morbid</li>
+					</value>
+				</li>
+
+				<!-- Brazier -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Brazier"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Dignified</li>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Minimal</li>
+						<li>Morbid</li>
+					</value>
+				</li>
+
+				<!-- Throne -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Throne"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- Grand Throne -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "GrandThrone"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+					<value>
+						<li>Natural</li>
+						<li>Artistic</li>
+						<li>Morbid</li>
+						<li>Minimal</li>
+						<li>Flame</li>
+					</value>
+				</li>
+
+				<!-- VFE - Vikings -->
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Vikings</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<!-- Runestone -->
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "VFEV_RuneStone"]/comps/li[@Class = "CompProperties_MeditationFocus"]/focusTypes</xpath>
+								<value>
+									<li>Dignified</li>
+									<li>Artistic</li>
+									<li>Morbid</li>
+									<li>Minimal</li>
+									<li>Flame</li>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+
+</Patch>

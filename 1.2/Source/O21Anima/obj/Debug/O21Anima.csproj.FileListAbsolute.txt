@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[O21] Adjustable Anima\1.2\Assemblies\O21Anima.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[O21] Adjustable Anima\1.2\Source\O21Anima\obj\Debug\O21Anima.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[O21] Adjustable Anima\1.2\Source\O21Anima\obj\Debug\O21Anima.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[O21] Adjustable Anima\1.2\Source\O21Anima\obj\Debug\O21Anima.dll

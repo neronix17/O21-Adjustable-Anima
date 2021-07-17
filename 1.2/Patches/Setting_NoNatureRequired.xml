@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="O21Anima.PatchOperation_SettingActive">
+		<settings>
+			<li>buildableShrines</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[@Name="NatureShrineBase"]/placeWorkers[value="PlaceWorker_RequireNaturePsycaster"]</xpath>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Vikings</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<!-- Runestone -->
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[@Name="VFEV_RuneStone"]/placeWorkers[value="PlaceWorker_RequireNaturePsycaster"]</xpath>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+
+</Patch>
