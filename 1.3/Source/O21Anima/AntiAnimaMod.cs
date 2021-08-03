@@ -221,6 +221,9 @@ namespace O21Anima
 
             artificialOffset.radius = s.buildingRadius;
 
+            StatPart_ArtificalBuildingsNearbyOffset nearbyBuildingOffset = (StatPart_ArtificalBuildingsNearbyOffset)StatDefOf.MeditationPlantGrowthOffset.parts.Find(sp => sp.GetType() == typeof(StatPart_ArtificalBuildingsNearbyOffset));
+            nearbyBuildingOffset.radius = s.buildingRadius;
+
             naturalOffset.radius = s.buffBuildingRadius;
             naturalOffset.maxBuildings = s.maxBuffBuildings;
 
