@@ -99,7 +99,7 @@ namespace O21Anima
                 ls.GapLine();
                 ls.CheckboxLabeled("All meditation items/buildings allow all meditation types", ref settings.meditationAll, "Pretty self explanatory.");
                 ls.CheckboxLabeled("Nature shrines always buildable", ref settings.buildableShrines, "Nature Shrines are usually only buildable when you have a nature based Psycaster.");
-                ls.CheckboxLabeled("No backstory restrictions for Natural/Artistic Meditaiton", ref settings.allPawnsNaturalArtistic, "Again, pretty self explanatory.");
+                ls.CheckboxLabeled("No backstory restrictions for Natural/Artistic meditation", ref settings.allPawnsNaturalArtistic, "Again, pretty self explanatory.");
                 ls.Label("Artificial Building Radius", tooltip: "The radius in which a debuff is applied to the focus object effects if artificial buildings are built in it.");
                 ls.Label("Default: 34.9, Min-Max: 0.1 - 40.9, Current: " + settings.shrineBuildingRadius.ToString("0.0"));
                 settings.shrineBuildingRadius = Mathf.Round(ls.Slider(settings.shrineBuildingRadius, 0.1f, 40.9f) * 100f) / 100f;
